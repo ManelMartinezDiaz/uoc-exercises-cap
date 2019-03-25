@@ -1,0 +1,15 @@
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N extrae_ep
+#$ -o extrae_ep.out.$JOB_ID
+#$ -e extrae_ep.err.$JOB_ID
+#$ -pe orte 4
+
+export EXTRAE_HOME=/share/apps/extrae
+cp /share/apps/extrae/share/example/MPI/extrae.xml .
+source /share/apps/extrae/etc/extrae.sh
+export EXTRAE_CONFIG_FILE=./extrae.xml
+export LD_PRELOAD=/share/apps/extrae/lib/libmpitrace.so
+
+mpirun -np 4 ep.S.4

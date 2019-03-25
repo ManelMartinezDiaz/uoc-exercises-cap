@@ -1,0 +1,10 @@
+#!/bin/bash
+planPolicies=("static" "dynamic" "guided")
+sizes=(500,1000,15002000)
+for size in "${sizes[@]}"
+do
+    for schedule in "${planPolicies[@]}"
+    do
+	qsub -v size=$size,schedule=$schedule mm_p3.sge
+    done
+done

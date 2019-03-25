@@ -1,0 +1,162 @@
+Welcome to Extrae 3.5.2
+Extrae: Parsing the configuration file (./extrae.xml) begins
+Extrae: Tracing package is located on /share/apps/extrae
+Extrae: Generating intermediate files for Paraver traces.
+Extrae: MPI routines will collect HW counters information.
+Extrae: Warning! <openmp> tag will be ignored. This library does not support OpenMP.
+Extrae: Tracing 3 level(s) of MPI callers: [ 1 2 3 ]
+Extrae: Warning! change-at-time time units not specified. Using seconds
+Extrae: PAPI domain set to ALL for HWC set 1
+Extrae: HWC set 1 contains following counters < PAPI_TOT_INS (0x80000032) PAPI_TOT_CYC (0x8000003b) PAPI_L1_DCM (0x80000000) PAPI_L2_DCM (0x80000002) PAPI_L3_TCM (0x80000008) PAPI_BR_INS (0x80000037) PAPI_BR_MSP (0x8000002e) RESOURCE_STALLS (0x40000028) > - never changes
+Extrae: Warning! change-at-time time units not specified. Using seconds
+Extrae: PAPI domain set to ALL for HWC set 2
+Extrae: HWC set 2 contains following counters < PAPI_TOT_INS (0x80000032) PAPI_TOT_CYC (0x8000003b) PAPI_VEC_SP (0x80000069) PAPI_SR_INS (0x80000036) PAPI_LD_INS (0x80000035) PAPI_FP_INS (0x80000034) > - never changes
+Extrae: Resource usage is disabled at flush buffer.
+Extrae: Memory usage is disabled at flush buffer.
+Extrae: Tracing buffer can hold 5000000 events
+Extrae: Circular buffer disabled.
+Extrae: Sampling buffers will be written at instrumentation points
+Extrae: Dynamic memory instrumentation is disabled.
+Extrae: Basic I/O memory instrumentation is disabled.
+Extrae: System calls instrumentation is disabled.
+Extrae: Parsing the configuration file (./extrae.xml) has ended
+Extrae: Intermediate traces will be stored in /home/capa20/pac3
+Extrae: Temporal directory (/home/capa20/pac3) is shared among processes.
+Extrae: Final directory (/home/capa20/pac3) is shared among processes.
+Extrae: Tracing mode is set to: Detail.
+Extrae: Successfully initiated with 16 tasks and 1 threads
+
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021547000001000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021560000014000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021548000002000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021549000003000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021550000004000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021552000006000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021553000007000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021551000005000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021554000008000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021555000009000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021556000010000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021557000011000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021558000012000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021559000013000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021561000015000000.mpit
+Extrae: Intermediate raw trace file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021546000000000000.mpit
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021549000003000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021550000004000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021553000007000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021551000005000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021547000001000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021555000009000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021557000011000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021556000010000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021558000012000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021559000013000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021560000014000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021548000002000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021546000000000000.sym
+Extrae: Deallocating memory.
+Extrae: Application has ended. Tracing has been terminated.
+Extrae: Proceeding with the merge of the intermediate tracefiles.
+Extrae: Waiting for all tasks to reach the checkpoint.
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021552000006000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021561000015000000.sym
+Extrae: Intermediate raw sym file created : /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021554000008000000.sym
+Extrae: Executing the merge process (using /home/capa20/pac3/TRACE.mpits).
+merger: Extrae 3.5.2
+mpi2prv: Tree order is set to 16
+mpi2prv: Assigned nodes < compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local, compute-0-8.local >
+mpi2prv: Assigned size per processor < <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte, <1 Mbyte >
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021546000000000000.mpit is object 1.1.1 on node compute-0-8.local assigned to processor 0
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021547000001000000.mpit is object 1.2.1 on node compute-0-8.local assigned to processor 1
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021548000002000000.mpit is object 1.3.1 on node compute-0-8.local assigned to processor 2
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021549000003000000.mpit is object 1.4.1 on node compute-0-8.local assigned to processor 3
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021550000004000000.mpit is object 1.5.1 on node compute-0-8.local assigned to processor 4
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021551000005000000.mpit is object 1.6.1 on node compute-0-8.local assigned to processor 5
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021552000006000000.mpit is object 1.7.1 on node compute-0-8.local assigned to processor 6
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021553000007000000.mpit is object 1.8.1 on node compute-0-8.local assigned to processor 7
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021554000008000000.mpit is object 1.9.1 on node compute-0-8.local assigned to processor 8
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021555000009000000.mpit is object 1.10.1 on node compute-0-8.local assigned to processor 9
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021556000010000000.mpit is object 1.11.1 on node compute-0-8.local assigned to processor 10
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021557000011000000.mpit is object 1.12.1 on node compute-0-8.local assigned to processor 11
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021558000012000000.mpit is object 1.13.1 on node compute-0-8.local assigned to processor 12
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021559000013000000.mpit is object 1.14.1 on node compute-0-8.local assigned to processor 13
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021560000014000000.mpit is object 1.15.1 on node compute-0-8.local assigned to processor 14
+mpi2prv: File /home/capa20/pac3/set-0/TRACE@compute-0-8.local.0000021561000015000000.mpit is object 1.16.1 on node compute-0-8.local assigned to processor 15
+mpi2prv: Time synchronization has been turned off
+mpi2prv: A total of 12 symbols were imported from /home/capa20/pac3/TRACE.sym file
+mpi2prv: 0 function symbols imported
+mpi2prv: 12 HWC counter descriptions imported
+mpi2prv: Checking for target directory existance... exists, ok!
+mpi2prv: Selected output trace format is Paraver
+mpi2prv: Stored trace format is Paraver
+mpi2prv: Searching synchronization points... done
+mpi2prv: Enabling Time Synchronization (Node).
+mpi2prv: Circular buffer enabled at tracing time? NO
+mpi2prv: Parsing intermediate files
+mpi2prv: Processor 8 succeeded to translate its assigned files
+mpi2prv: Processor 7 succeeded to translate its assigned files
+mpi2prv: Processor 1 succeeded to translate its assigned files
+mpi2prv: Processor 11 succeeded to translate its assigned files
+mpi2prv: Processor 9 succeeded to translate its assigned files
+mpi2prv: Processor 5 succeeded to translate its assigned files
+mpi2prv: Processor 0 succeeded to translate its assigned files
+mpi2prv: Processor 3 succeeded to translate its assigned files
+mpi2prv: Processor 10 succeeded to translate its assigned files
+mpi2prv: Processor 13 succeeded to translate its assigned files
+mpi2prv: Processor 2 succeeded to translate its assigned files
+mpi2prv: Processor 4 succeeded to translate its assigned files
+mpi2prv: Processor 15 succeeded to translate its assigned files
+mpi2prv: Processor 12 succeeded to translate its assigned files
+mpi2prv: Processor 6 succeeded to translate its assigned files
+mpi2prv: Processor 14 succeeded to translate its assigned files
+mpi2prv: Elapsed time translating files: 0 hours 0 minutes 0 seconds
+mpi2prv: Gathering addresses across processors... done
+mpi2prv: Elapsed time broadcasting and sorting addresses: 0 hours 0 minutes 0 seconds
+mpi2prv: Starting the distribution of foreign receives.
+mpi2prv: Processor 8 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 4 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 7 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 1 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 11 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 3 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 9 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 15 is storing 10 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 0 is storing 10 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Ended the distribution of foreign receives.
+mpi2prv: Processor 12 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 10 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 6 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 13 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 2 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 14 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Processor 5 is storing 20 foreign receives (0 Kbytes) for the next phase.
+mpi2prv: Sharing information < MPI OpenMP pthread CUDA HWC MISC callers files >
+mpi2prv: Elapsed time sharing communications: 0 hours 0 minutes 1 seconds
+mpi2prv: Sharing thread accounting information for ptask 0 done
+mpi2prv: Merge tree depth for 16 tasks is 1 levels using a fan-out of 16 leaves
+mpi2prv: Executing merge tree step 1 of 1.
+mpi2prv: Generating tracefile (intermediate buffers of 24672 events)
+         This process can take a while. Please, be patient.
+mpi2prv: Progress ... 5% 10% 15% 20% 25% 30% 35% 40% 45% 50% 55% 60% 65% 70% 75% 80% 85% 90% 95% done
+mpi2prv: Elapsed time on tree step 1: 0 hours 0 minutes 0 seconds
+mpi2prv: Resulting tracefile occupies 304129 bytes
+mpi2prv: Removing temporal files... done
+mpi2prv: Elapsed time removing temporal files: 0 hours 0 minutes 0 seconds
+mpi2prv: Congratulations! solver_ex9.prv has been generated.
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].
+Temps de computació = 81 [sg].

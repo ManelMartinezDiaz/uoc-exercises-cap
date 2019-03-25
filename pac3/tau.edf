@@ -1,0 +1,23 @@
+21 dynamic_trace_events
+# FunctionId Group Tag "Name Type" Parameters
+1 TAUEVENT 0 ".TAU <unknown event>" TriggerValue
+2 TAU_USER 0 ".TAU application " EntryExit
+19 TRACER 0 "CONT_EVENT" none
+14 TRACER 0 "EV_INIT" none
+15 TRACER 0 "FLUSH" EntryExit
+16 TRACER 0 "FLUSH_CLOSE" none
+17 TRACER 0 "FLUSH_INITM" none
+21 TAU_MESSAGE -8 "MESSAGE_RECV" par
+20 TAU_MESSAGE -7 "MESSAGE_SEND" par
+8 MPI 0 "MPI_Barrier()  " EntryExit
+4 MPI 0 "MPI_Comm_rank()  " EntryExit
+5 MPI 0 "MPI_Comm_size()  " EntryExit
+9 MPI 0 "MPI_Finalize()  " EntryExit
+3 MPI 0 "MPI_Init()  " EntryExit
+7 MPI 0 "MPI_Recv()  " EntryExit
+6 MPI 0 "MPI_Send()  " EntryExit
+12 TAUEVENT 0 "Message size received from all nodes" TriggerValue
+11 TAUEVENT 0 "Message size sent to all nodes" TriggerValue
+13 TAUEVENT 0 "TauTraceClockOffsetEnd" TriggerValue
+10 TAUEVENT 0 "TauTraceClockOffsetStart" TriggerValue
+18 TRACER 0 "WALL_CLOCK" none

@@ -1,0 +1,16 @@
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N solver_ex8_par
+#$ -o solver_ex8_par.out.$JOB_ID
+#$ -e solver_ex8_par.err.$JOB_ID
+export OMP_NUM_THREADS=$nthreads
+export TAU_TRACE=1
+export TAU_PROFILE=1
+export PATH=$PATH:/share/apps/tau/x86_64/bin
+
+timeIni=$(date +%s%3N)
+mpirun -np $nthreads tau_exec ./solver_ex9 100 10
+timeFin=$(date +%s%3N)
+echo "$size, $iters, $nthreads, $((timeFin-timeIni)) [ms]" >> solver_ex9_result.out
+%pprof

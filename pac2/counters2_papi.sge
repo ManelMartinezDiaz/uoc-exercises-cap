@@ -1,0 +1,9 @@
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N counters2_papi
+#$ -o counters2_papi.out.$JOB_ID
+#$ -e counters2_papi.out.$JOB_ID
+#$ -pe openmp 4
+export OMP_NUM_THREADS=$NSLOTS
+./counters2_papi

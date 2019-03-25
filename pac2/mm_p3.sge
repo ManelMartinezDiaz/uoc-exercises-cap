@@ -1,0 +1,13 @@
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N mm_p3_jobname
+#$ -o mm_p3_$JOB_ID.out
+#$ -e mm_p3_$JOB_ID.err
+#$ -pe openmp 4
+export OMP_SCHEDULE=$schedule
+export OMP_NUM_THREADS=$nthreads
+timeIni=$(date +%s%3N)
+./mm_p3 $size
+timeFin=$(date +%s%3N)
+echo "$schedule, $size, $nthreads, $((timeFin-timeIni)) [ms]" >> mm_p3_result.out
